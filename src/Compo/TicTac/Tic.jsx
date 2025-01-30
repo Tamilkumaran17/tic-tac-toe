@@ -95,7 +95,7 @@ const Tic = () => {
         setLock(false);
         setCurrentPlayer('X');
         data = ["", "", "", "", "", "", "", "", ""];
-        titleRef.current.innerHTML = '<span>Tic-Tac-Toe</span>'
+        titleRef.current.innerHTML = '<span>Tic Tac Toe</span>'
 
         box_array.map((e) => {
             e.current.innerHTML = ""
@@ -119,7 +119,7 @@ const Tic = () => {
     return (
         <>
             <div className='container'>
-                <h1 className='title' ref={titleRef}><span>Tic-Tac-Toe</span></h1>
+                <h1 className='title' ref={titleRef}><span>Tic Tac Toe</span></h1>
                 
                 {username ? (
                     <>
